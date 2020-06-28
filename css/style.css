@@ -12,6 +12,21 @@
 
 /* start navigation */
 
+body::-webkit-scrollbar {
+    width: 0.5rem !important;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24 !important;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    /* background: linear-gradient(to top, hsl(285, 92%, 48%), rgb(226, 48, 226)) !important; */
+    background: var(--gradient-color) !important;
+    border-radius: 10px;
+}
+
 .header_area .main-menu .navbar .navbar-brand {
     padding: 0 2rem 0 5rem;
 }
